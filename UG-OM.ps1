@@ -1,3 +1,26 @@
+<#
+.SYNOPSIS
+Example script to export Office 365 Groups with Members and Owners to CSV from the given CSV file
+.DESCRIPTION
+This script exports Office 365 Group / Team members and owners to a CSV file. The script reads a list of groups from a CSV file and exports the group email, group name, owners, and members to another CSV file.
+.PARAMETER $InputFile
+The path to the CSV file containing a list of groups.
+.PARAMETER $OutputFile
+The path to the CSV file to export the group data to.
+.INPUTS
+None
+.OUTPUTS
+CSV File
+.NOTES
+Version: 1.0
+Author: Sivakumar Margabandhu
+Creation Date: 20230410
+Purpose/Change: Initial version
+
+.EXAMPLE
+.\ug-om.ps1
+#>
+
 # Define variables for input and output file paths
 $InputFile = "C:\M365groups\groups-source.csv"
 $OutputFile = "C:\M365groups\ownerreport.csv"
