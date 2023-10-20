@@ -1,4 +1,4 @@
-Create M365_Licensed_Users.ps1
+M365_Licensed_Users.ps1
 ==============================
 This PowerShell script connects to Microsoft 365, specifically Office 365 and Exchange Online, to export user information with a specific license to a CSV file. It prompts for the desired license, retrieves users who have that license, and collects user details such as User Principal Name (UPN), Primary SMTP Address, DirSync status, Credential Block status, License, and associated Service Plans. The exported user data is saved to a CSV file for further analysis or reporting.
 
